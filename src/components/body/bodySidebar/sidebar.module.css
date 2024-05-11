@@ -1,0 +1,130 @@
+.sidebar_block {
+    width: 295px;
+    height: 797px;
+    background: #FFFFFF;
+    border-radius: 18px;
+    padding: 30px 20px;
+}
+
+.sidebar_title_part {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.sidebar_title {
+    font-size: 20px;
+    font-weight: 500;
+    margin: 0;
+}
+
+.sidebar_title_reset_part {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    cursor: pointer;
+}
+
+.sidebar_title_reset {
+    font-size: 14px;
+    font-weight: 500;
+    color: #DE303A;
+    margin-left: 8px;
+}
+
+.sidebar_search_form {
+    margin-top: 24px;
+    position: relative;
+}
+
+.search_input {
+    width: 100%;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    padding-right: 35px;
+    padding-left: 20px;
+    border-radius: 12px;
+    outline: none;
+    border: none;
+    background: #F8F8F8;
+    font-size: 14px;
+    font-weight: 400;
+    color: #747474;
+}
+
+input[type="search"]::-webkit-search-cancel-button {
+    display: none;
+}
+
+.search_svg {
+    position: absolute;
+    top: 35%;
+    right: 5%;
+    cursor: pointer;
+}
+
+.sidebar_item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 22px;
+}
+
+.checkbox_block {
+    display: flex;
+    align-items: center;    
+}
+
+.search_checkbox {
+    margin: 0;
+    margin-right: 12px;    
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+/* ------------------------ */
+
+.search_checkbox {
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+}
+
+.search_checkbox+label {
+    display: inline-flex;
+    align-items: center;
+    user-select: none;
+}
+
+.search_checkbox+label::before {
+    content: '';
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    flex-shrink: 0;
+    flex-grow: 0;
+    border: 1px solid #adb5bd;
+    border-radius: 0.25em;
+    margin-right: 0.5em;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 50% 50%;
+}
+
+.search_checkbox:checked+label::before {
+    border-color: #0129E3;
+    background-color: #0129E3;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3e%3cpath fill='%23fff' d='M6.564.75l-3.59 3.612-1.538-1.55L0 4.26 2.974 7.25 8 2.193z'/%3e%3c/svg%3e");
+}
+
+
+/* ------------------------ */
+
+.search_label {
+    font-size: 16px;
+    font-weight: 400;
+    color: #050B2B;
+    cursor: pointer;
+}
+

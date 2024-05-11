@@ -1,0 +1,142 @@
+/* .nav_wrapper{
+    background: #F8F8F8;
+} */
+.nav_wrapper_top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.map_location {
+    width: 125px;
+    height: 54px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.location {
+    background: #F8F8F8;
+    color: #050B2B;
+    border: none;
+    font-size: 16px;
+    font-weight: 500;
+    outline: none;
+    padding-right: 12px;
+}
+
+.location_option {
+    background: #F8F8F8;
+}
+
+.language_block {
+    display: flex;
+    align-items: center;
+}
+
+.lb_text {
+    margin: 0;
+    margin-left: 12px;
+    color: #747474;
+    border: none;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.languages {
+    background: #F8F8F8;
+    color: #050B2B;
+    border: none;
+    font-size: 16px;
+    font-weight: 500;
+    outline: none;
+    padding-right: 12px;
+}
+
+.languages_option{
+    background: #F8F8F8;
+}
+
+/* ---------------- */
+.nav_wrapper_bottom {
+    display: flex;
+    justify-content: space-between;
+}
+
+.consult_block {
+    width: 416px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background: #FFFFFF;
+    border-radius: 16px;
+}
+
+.consult_block_text {
+    font-size: 14px;
+    font-weight: 400;
+    color: #747474;
+}
+
+.services_block {
+    width: 261px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #0129E3;
+    border-radius: 16px;
+}
+
+.services_block_text {
+    color: #FFFFFF;
+    margin-left: 12px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.page_block {
+    width: 416px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    background: #FFFFFF;
+}
+
+.page_block_links{
+    width: 317px;
+}
+
+.page_block_list {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+.block_link{
+    font-size: 16px;
+    font-weight: 500;
+    color: #747474;
+    cursor: pointer;
+}
+
+.registration_block{
+    width: 276px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    background: #FFFFFF;
+}
+
+.registration_block_text{
+    font-size: 16px;
+    font-weight: 500;
+    color: #0129E3;
+    cursor: pointer;
+}
+
